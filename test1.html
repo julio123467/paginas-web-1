@@ -4,74 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto HTML</title>
+
     <style>
-        /* Estilos sencillos como de tarea */
         body {
-            font-family: Arial, sans-serif; /* Un solo tipo de letra para todo */
-            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            background-color: #eef6fb;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1b4f72;
         }
 
         table {
             width: 90%;
             margin: auto;
-            border-collapse: collapse; /* Para que las orillas se junten */
-            background-color: #d6eaf8; /* Color azul cielo suave */
-            border: 2px solid #333;
+            border-collapse: collapse;
+            background-color: #d4e6f1;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th {
+            background-color: #2e86c1;
+            color: white;
         }
 
         th, td {
-            border: 1px solid #333;
+            border: 1px solid #1b4f72;
             padding: 15px;
             text-align: center;
         }
 
-        th {
-            background-color: #aed6f1; /* Un tono un poquito más oscuro para los títulos */
+        tr:nth-child(even) {
+            background-color: #ebf5fb;
+        }
+
+        tr:hover {
+            background-color: #aed6f1;
         }
 
         img {
-            width: 150px; /* Tamaño de las fotos */
+            width: 150px;
             height: auto;
-            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #555;
         }
     </style>
 </head>
+
 <body>
 
-    <h1 style="text-align: center;">Proyecto Páginas Web donde aprendí uso de tablas HTML : Julio César Hernández</h1>
+<h1>Proyecto de Páginas Web: Uso de Tablas en HTML - Julio César Hernández</h1>
 
-    <table>
-        <tr>
-            <th>Animal</th>
-            <th>Imagen</th>
-            <th>Información</th>
-        </tr>
-        <tr>
-            <td>León</td>
-            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Savannah_Lion.jpg/320px-Savannah_Lion.jpg" alt="León"></td>
-            <td>Es conocido como el "rey de la selva". Es un mamífero carnívoro que vive en manadas llamadas pride. Los machos tienen una melena grande y oscura que los protege. Pueden correr hasta 80 km/h y pesar entre 150 y 250 kg.</td>
-        </tr>
-        <tr>
-            <td>Tigre</td>
-            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Tiger_picture.jpg/320px-Tiger_picture.jpg" alt="Tigre"></td>
-            <td>Es el felino más grande y fuerte del mundo. Su pelaje es naranja con rayas negras y cada tigre tiene un patrón único, como las huellas dactilares. Son muy buenos nadadores y pueden comer hasta 40 kilos de carne en una sola comida.</td>
-        </tr>
-        <tr>
-            <td>Elefante</td>
-            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Elephas_maximus_-_Khao_Yai_National_Park.jpg/320px-Elephas_maximus_-_Khao_Yai_National_Park.jpg" alt="Elefante"></td>
-            <td>Es el animal terrestre más grande del mundo. Tienen una trompa muy larga que usan para respirar, oler, beber agua y agarrar objetos. Comen pasto, hojas y frutas todo el día. Tienen memoria excelente y viven en familia liderada por la hembra mayor.</td>
-        </tr>
-        <tr>
-            <td>Perro</td>
-            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Golden_Retriever_with_tennis_ball.jpg/320px-Golden_Retriever_with_tennis_ball.jpg" alt="Perro"></td>
-            <td>Es el mejor amigo del hombre y fue el primer animal en ser domesticado. Tienen un sentido del olfato muy poderoso, 10,000 veces mejor que el nuestro. Son muy inteligentes, leales, cariñosos y pueden aprender muchos trucos y órdenes.</td>
-        </tr>
-        <tr>
-            <td>Cocodrilo</td>
-            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Crocodylus_acutus_-_cropped.jpg/320px-Crocodylus_acutus_-_cropped.jpg" alt="Cocodrilo"></td>
-            <td>Es un reptil muy antiguo que vive en ríos y lagos. Su piel es dura y gruesa como una armadura para protegerse. Tienen dientes muy afilados y una mordida muy fuerte. Pueden vivir mucho tiempo, algunos hasta 70 años, y pasan mucho tiempo quietos.</td>
-        </tr>
-    </table>
+<table>
+    <tr>
+        <th>Animal</th>
+        <th>Imagen</th>
+        <th>Información</th>
+    </tr>
+
+    <tr>
+        <td>León</td>
+        <td><img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d" alt="León"></td>
+        <td>Es conocido como el "rey de la selva". Vive en manadas y los machos tienen una melena que los protege.</td>
+    </tr>
+
+    <tr>
+        <td>Tigre</td>
+        <td><img src="https://images.unsplash.com/photo-1549488344-cbb6c34cf08b" alt="Tigre"></td>
+        <td>Es el felino más grande del mundo. Tiene rayas únicas y es un excelente nadador.</td>
+    </tr>
+
+    <tr>
+        <td>Elefante</td>
+        <td><img src="https://images.unsplash.com/photo-1557053964-937650b63311" alt="Elefante"></td>
+        <td>Es el animal terrestre más grande. Usa su trompa para muchas funciones y vive en grupos familiares.</td>
+    </tr>
+
+    <tr>
+        <td>Perro</td>
+        <td><img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d" alt="Perro"></td>
+        <td>Es el mejor amigo del hombre. Es leal, inteligente y muy buen compañero.</td>
+    </tr>
+
+    <tr>
+        <td>Cocodrilo</td>
+        <td><img src="https://images.unsplash.com/photo-1501706362039-c6e80948bbd7" alt="Cocodrilo"></td>
+        <td>Reptil muy antiguo con una mordida poderosa. Vive en ríos y lagos.</td>
+    </tr>
+
+</table>
+
+<footer>
+    <p>Proyecto escolar de HTML - 2026</p>
+</footer>
 
 </body>
 </html>
