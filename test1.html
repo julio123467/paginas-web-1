@@ -5,100 +5,150 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto HTML</title>
 
+    <!-- Fuente bonita -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #eaf2f8;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #d4e6f1, #a9cce3);
+            margin: 0;
+            padding: 0;
         }
 
         h1 {
             text-align: center;
-            color: #154360;
+            color: #0b3c5d;
+            margin-top: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #1b4f72;
+            margin-bottom: 20px;
         }
 
         table {
             width: 90%;
             margin: auto;
             border-collapse: collapse;
-            background-color: #d6eaf8;
-            border-radius: 10px;
+            background-color: white;
+            border-radius: 12px;
             overflow: hidden;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.2);
         }
 
         th {
-            background-color: #1f618d;
+            background-color: #1b4f72;
             color: white;
+            font-size: 18px;
         }
 
         th, td {
-            border: 1px solid #154360;
             padding: 15px;
             text-align: center;
         }
 
+        td {
+            color: #2c3e50;
+        }
+
         tr:nth-child(even) {
-            background-color: #ebf5fb;
+            background-color: #f2f6f9;
         }
 
         tr:hover {
-            background-color: #aed6f1;
+            background-color: #d6eaf8;
         }
 
         img {
-            width: 150px;
-            height: auto;
-            border-radius: 8px;
+            width: 120px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.1);
         }
 
         footer {
             text-align: center;
-            margin-top: 20px;
-            color: #555;
+            margin: 20px;
+            color: #1b4f72;
+            font-weight: bold;
         }
     </style>
 </head>
 
 <body>
 
-<h1>Proyecto de Páginas Web: Uso de Tablas en HTML - Julio César Hernández</h1>
+<h1>Proyecto Páginas Web</h1>
+
+<h2>
+    Donde aprendí el uso de tablas HTML y el uso de colores, letras y funciones, al igual que estilos de tablas<br>
+    Alumno: Julio César Hernández Torres
+</h2>
 
 <table>
-    <tr>
-        <th>Animal</th>
-        <th>Imagen</th>
-        <th>Información</th>
-    </tr>
+    <thead>
+        <tr>
+            <th>Animal</th>
+            <th>Imagen</th>
+            <th>Información</th>
+        </tr>
+    </thead>
 
-    <tr>
-        <td>León</td>
-        <td><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" alt="León"></td>
-        <td>Es conocido como el "rey de la selva". Vive en manadas y los machos tienen melena.</td>
-    </tr>
+    <tbody>
+        <tr>
+            <td>León</td>
+            <td>
+                <a href="https://images.unsplash.com/photo-1546182990-dffeafbe841d" target="_blank">
+                    <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d" alt="León">
+                </a>
+            </td>
+            <td>El león es un felino carnívoro que vive en África. Es conocido como el rey de la selva por su fuerza y liderazgo. Los machos tienen una gran melena y viven en grupos llamados manadas.</td>
+        </tr>
 
-    <tr>
-        <td>Tigre</td>
-        <td><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg" alt="Tigre"></td>
-        <td>Es el felino más grande del mundo. Tiene rayas únicas y es gran nadador.</td>
-    </tr>
+        <tr>
+            <td>Tigre</td>
+            <td>
+                <a href="https://images.unsplash.com/photo-1598755257130-c2aaca1f061c" target="_blank">
+                    <img src="https://images.unsplash.com/photo-1598755257130-c2aaca1f061c" alt="Tigre">
+                </a>
+            </td>
+            <td>El tigre es el felino más grande del mundo. Tiene un pelaje con rayas únicas que lo ayudan a camuflarse. Es un excelente cazador y también sabe nadar muy bien.</td>
+        </tr>
 
-    <tr>
-        <td>Elefante</td>
-        <td><img src="https://upload.wikimedia.org/wikipedia/commons/3/37/African_Bush_Elephant.jpg" alt="Elefante"></td>
-        <td>El animal terrestre más grande. Usa su trompa para muchas funciones.</td>
-    </tr>
+        <tr>
+            <td>Elefante</td>
+            <td>
+                <a href="https://images.unsplash.com/photo-1557050543-4d5f4e07ef46" target="_blank">
+                    <img src="https://images.unsplash.com/photo-1557050543-4d5f4e07ef46" alt="Elefante">
+                </a>
+            </td>
+            <td>El elefante es el animal terrestre más grande. Tiene una trompa muy versátil que usa para respirar, agarrar objetos y beber agua. Son animales muy inteligentes y sociales.</td>
+        </tr>
 
-    <tr>
-        <td>Perro</td>
-        <td><img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Golde33443.jpg" alt="Perro"></td>
-        <td>El mejor amigo del hombre. Es leal, inteligente y cariñoso.</td>
-    </tr>
+        <tr>
+            <td>Perro</td>
+            <td>
+                <a href="https://images.unsplash.com/photo-1517849845537-4d257902454a" target="_blank">
+                    <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a" alt="Perro">
+                </a>
+            </td>
+            <td>El perro es un animal doméstico muy querido por los humanos. Es leal, protector y puede aprender muchas órdenes. Existen muchas razas con diferentes características.</td>
+        </tr>
 
-    <tr>
-        <td>Cocodrilo</td>
-        <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Nile_crocodile_head.jpg" alt="Cocodrilo"></td>
-        <td>Reptil antiguo con una mordida muy fuerte. Vive en ríos y lagos.</td>
-    </tr>
-
+        <tr>
+            <td>Cocodrilo</td>
+            <td>
+                <a href="https://images.unsplash.com/photo-1582542021863-6f0f4d8d53b3" target="_blank">
+                    <img src="https://images.unsplash.com/photo-1582542021863-6f0f4d8d53b3" alt="Cocodrilo">
+                </a>
+            </td>
+            <td>El cocodrilo es un reptil muy antiguo que ha existido desde la época de los dinosaurios. Tiene una mandíbula muy poderosa y vive en ríos, lagos y zonas tropicales.</td>
+        </tr>
+    </tbody>
 </table>
 
 <footer>
