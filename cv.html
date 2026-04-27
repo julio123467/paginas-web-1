@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Julio Cesar Hernandez Torres</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.5;
+            color: #333;
+            background-color: #f4f7f9; 
+            margin: 0;
+            padding: 0;
+        }
+        .cv-container {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 20px auto;
+            background: #fff;
+            display: grid;
+            grid-template-columns: 32% 68%;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+        /* Sidebar (Azul Industrial) */
+        .sidebar {
+            background-color: #2c3e50; 
+            color: #ffffff;
+            padding: 30px 25px;
+        }
+        .photo-container {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .photo-container img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #34495e; 
+            object-fit: cover;
+            background-color: #fff;
+        }
+        .sidebar h2 {
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-top: 25px;
+            letter-spacing: 1px;
+            color: #3498db;
+        }
+        .info-list {
+            list-style: none;
+            padding: 0;
+            font-size: 0.85rem;
+        }
+        .info-list li {
+            margin-bottom: 12px;
+            word-wrap: break-word;
+        }
+        .skill-tag {
+            display: inline-block;
+            background: rgba(52, 152, 219, 0.15);
+            padding: 8px 12px;
+            margin: 4px 0;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            width: 90%;
+            border: 1px solid rgba(52, 152, 219, 0.3);
+        }
+
+        /* Contenido Principal */
+        .main-content {
+            padding: 40px;
+        }
+        .header {
+            border-bottom: 4px solid #2c3e50;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.1rem;
+            color: #2c3e50;
+            text-transform: uppercase;
+        }
+        .header p {
+            font-size: 1.2rem;
+            color: #2980b9; 
+            font-weight: 600;
+            margin: 5px 0 15px;
+        }
+        .section-title {
+            color: #2c3e50;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            margin: 25px 0 10px;
+            display: flex;
+            align-items: center;
+        }
+        .section-title::after {
+            content: "";
+            flex: 1;
+            height: 2px;
+            background: #e0e0e0;
+            margin-left: 15px;
+        }
+        .content-p {
+            font-size: 0.95rem;
+            text-align: justify;
+            color: #444;
+        }
+        .item {
+            margin-bottom: 20px;
+        }
+        .item-title {
+            font-weight: bold;
+            font-size: 1rem;
+            color: #2c3e50;
+        }
+        .item-sub {
+            display: flex;
+            justify-content: space-between;
+            font-style: italic;
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            margin-bottom: 5px;
+        }
+        ul.list-detail {
+            padding-left: 18px;
+            font-size: 0.9rem;
+            margin: 5px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cv-container">
+        <aside class="sidebar">
+            <div class="photo-container">
+                <img src="https://via.placeholder.com/150" alt="Julio Cesar Hernandez">
+            </div>
+
+            <h2>Contacto</h2>
+            <ul class="info-list">
+                <li>✉️ <strong>Email:</strong><br>julio.cacha2007@gmail.com</li>
+                <li>📍 <strong>Ubicación:</strong><br>Ixtlahuaca, Estado de México</li>
+            </ul>
+
+            <h2>Habilidades Técnicas</h2>
+            <div class="skill-tag">📦 Administración de Almacén</div>
+            <div class="skill-tag">📑 Control de Remisiones</div>
+            <div class="skill-tag">📂 Organización Logística</div>
+            <div class="skill-tag">🏢 Gestión de Empresas Familiares</div>
+            <div class="skill-tag">🧪 Interés en Ingeniería Química</div>
+        </aside>
+
+        <main class="main-content">
+            <header class="header">
+                <h1>Julio Cesar Hernandez Torres</h1>
+                <p>Aspirante a Ingeniería Química</p>
+            </header>
+
+            <section>
+                <h2 class="section-title">Sobre Mí</h2>
+                <p class="content-p">
+                    Estudiante de nivel medio superior con una fuerte visión empresarial y técnica. Mi objetivo es formarme como Ingeniero Químico para aplicar conocimientos científicos en la optimización y crecimiento exponencial de las empresas familiares. Me destaco por mi capacidad de organización, responsabilidad en la gestión de recursos y un compromiso constante con la mejora de procesos administrativos y operativos.
+                </p>
+            </section>
+
+            <section>
+                <h2 class="section-title">Formación Académica</h2>
+                
+                <div class="item">
+                    <div class="item-title">Bachillerato General (6to Semestre)</div>
+                    <div class="item-sub">
+                        <span>Instituto Cultural Canadiense</span>
+                        <span>2023 - 2026</span>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title">Experiencia Profesional</h2>
+                
+                <div class="item">
+                    <div class="item-title">Administrador de Almacén y Logística</div>
+                    <div class="item-sub">
+                        <span>Empresas Familiares</span>
+                        <span>Actualidad</span>
+                    </div>
+                    <ul class="list-detail">
+                        <li>Control y seguimiento de remisiones de material.</li>
+                        <li>Organización estructural de inventarios en almacén para optimizar tiempos de entrega.</li>
+                        <li>Apoyo en la gestión administrativa y operativa del negocio.</li>
+                        <li>Desarrollo de estrategias para el crecimiento escalable de la empresa.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title">Objetivos</h2>
+                <ul class="list-detail">
+                    <li>Ingresar y concluir con éxito la carrera de Ingeniería Química.</li>
+                    <li>Modernizar los procesos de producción y administración mediante tecnología y ciencia.</li>
+                    <li>Liderar la expansión del mercado para el grupo empresarial familiar.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
